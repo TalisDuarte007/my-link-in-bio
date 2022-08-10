@@ -14,7 +14,13 @@ window.addEventListener("DOMContentLoaded", () => {
     birdSize: 1.4,
     speedLimit: 3.0,
     separation: 10.0,
-    quantity: 3.0,
+    quantity: 2.0,
     backgroundAlpha: 0.0,
   })
+  setTimeout(() => {
+    const main = document.querySelector('main')
+    main.style.opacity = 1;
+    main.style.filter = 'blur(0px)'
+  }, 1000)
+  
 })
