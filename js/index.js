@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", () => {
     birdSize: 1.4,
     speedLimit: 3.0,
     separation: 10.0,
-    quantity: 4.0,
+    quantity: 3.0,
     backgroundAlpha: 0.0,
   })
 })
